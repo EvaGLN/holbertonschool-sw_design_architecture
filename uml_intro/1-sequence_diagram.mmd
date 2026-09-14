@@ -6,5 +6,5 @@ sequenceDiagram
     User->>Library: create_loan(book, user)
     Library->>Book: mark_as_unavailable()
     create participant Loan
-    Library->>Loan: create_loan()
+    Library->>Loan: create_loan(book, user)
     Library-->>User: loan created
