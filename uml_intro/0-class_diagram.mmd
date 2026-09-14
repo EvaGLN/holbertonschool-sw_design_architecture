@@ -5,9 +5,9 @@ classDiagram
     Loan "0..*" --> "1" Book
     Loan "0..*" --> "1" User
     class Library{
-        +add_book()
-        +register_user()
-        +create_loan()
+        +add_book(book: Book): None
+        +register_user(user: User): None
+        +create_loan(book: Book, user: User): Loan
     }
     class Book{
         +title : str
