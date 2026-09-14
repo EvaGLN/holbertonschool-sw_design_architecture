@@ -1,11 +1,14 @@
 classDiagram
-    Library "1" o-- "*" Book
-    Library "1" o-- "*" User
-    Book "1" -- "*" Loan
-    User "1" -- "*" Loan
-    Library: +add_book()
-    Library: +register_user()
-    Library: +create_loan()
+    Library "1" -- "0..*" Book
+    Library "1" -- "0..*" User
+    Library "1" -- "0..*" Loan
+    Loan "0..*" --> "1" Book
+    Loan "0..*" --> "1" User
+    class Library{
+        +add_book()
+        +register_user()
+        +create_loan()
+    }
     class Book{
         +str title
         +str author
