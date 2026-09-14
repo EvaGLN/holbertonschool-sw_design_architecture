@@ -7,8 +7,6 @@
 
 ## Concepts
 
-[#concepts](#concepts)
-
 For this project, we expect you to look at these concepts:
 
 - [OOP - Introduction to UML](https://intranet.hbtn.io/concepts/1166)
@@ -20,8 +18,6 @@ For this project, we expect you to look at these concepts:
 - [UML - Dependency](https://intranet.hbtn.io/concepts/1172)
 
 ## Introduction and Context
-
-[#introduction-and-context](#introduction-and-context)
 
 In this project, you will be introduced to UML (Unified Modeling Language) as a tool to represent software systems.
 
@@ -42,8 +38,6 @@ This is an individual project focused on building your first modeling skills bef
 
 ## Learning Objectives
 
-[#learning-objectives](#learning-objectives)
-
 By the end of this project, you should be able to:
 
 - extract classes, attributes, and methods from a textual description
@@ -54,8 +48,6 @@ By the end of this project, you should be able to:
 - use Mermaid syntax to express diagrams
 
 ## Resources
-
-[#resources](#resources)
 
 Introductory UML references (watch/read this first):
 
@@ -75,8 +67,6 @@ You may use tools such as [Lucidchart](https://www.lucidchart.com/) to sketch yo
 
 ## General Requirements
 
-[#general-requirements](#general-requirements)
-
 **Environment:**
 
 - Ubuntu 20.04
@@ -93,8 +83,6 @@ You may use tools such as [Lucidchart](https://www.lucidchart.com/) to sketch yo
 - The project will be automatically corrected
 
 ## Problem — Library Loan System
-
-[#problem--library-loan-system](#problem--library-loan-system)
 
 A small library wants to manage its books and users.
 
@@ -181,8 +169,6 @@ Use the following questions to guide your reasoning:
 - Which object is responsible for changing the availability of a book?
 
 ## Final Notes
-
-[#final-notes](#final-notes)
 
 This project is intentionally structured to have a single correct solution.
 
